@@ -61,7 +61,7 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="145830565663211520"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="510697205225488394"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="362052686541225984"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="keep"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="343661509316050944"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="keep"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="keep"]:hover::before {
   transform: none;
@@ -87,7 +87,7 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="145830565663211520"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="510697205225488394"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="362052686541225984"]::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="keep"]::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="343661509316050944"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="keep"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="keep"]::before {
   content: '';
@@ -111,7 +111,7 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="145830565663211520"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="510697205225488394"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="362052686541225984"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="keep"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="343661509316050944"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="keep"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="keep"]:hover::before {
   display: block;
@@ -177,6 +177,14 @@
   right: -5px;
 }
 
+/*iiRiFTY*/
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="343661509316050944"]::before {
+  background-image: url(https://imgur.com/pax8XUJ);
+  transform: scale(1.2);
+  bottom: -5px;
+  right: -5px;
+}
+
 /* ---- Tags ---- */
 
 /*Kylerh15 (Me)*/
@@ -225,6 +233,13 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="362052686541225984"]:hover::before {
   content: 'God';
   background-image: url(https://cdn.discordapp.com/attachments/553331776798457866/553808133986713615/ezgif.com-resize.gif);
+  color: #fff;
+}
+
+/*iiRiFTY*/
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="343661509316050944"]:hover::before {
+  content: 'Big Cid God';
+  background-image: url(https://gph.is/2lYF3a8);
   color: #fff;
 }
 
@@ -285,7 +300,8 @@
 /* popin with pulse */
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="304812483775037442"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="139567554707324929"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="362052686541225984"]:hover::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="362052686541225984"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="343661509316050944"]:hover::before {
   animation: mentionpulse 1.5s infinite, popoutanim .2s;
 }
 
