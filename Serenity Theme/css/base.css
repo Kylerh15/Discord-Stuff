@@ -5,6 +5,29 @@
 @import url('https://kylerh15.github.io/Discord-Stuff/Serenity%20Theme/addons/UserTags.css');
 @import url('https://kylerh15.github.io/Discord-Stuff/Serenity%20Theme/addons/CustomUserPopouts.css');
 @import url('https://tropix126.github.io/BetterDiscordStuff/friendgrid/v3/css/base.css');
+
+/*Root*/
+:root {
+/*Primary Variables*/
+  --lv1:#00000f;
+  --accent:#1973d3;
+  --hover:#135193;
+  --bg:url('https://cdn.discordapp.com/attachments/544195153506861056/553094966965174282/LowPolyWallpaperDarkGrey.png');
+  --lvl-bg-opacity:0.25;
+  --lvl-bg-fade:80%;
+
+/*Status Variables*/
+  --online: #43b581;
+  --idle: #faa61a;
+  --dnd: #f04747;
+  --offline: #636b75;
+  --invisible: #747f8d;
+  --streaming: #643da7;
+
+/*Other Variables*/
+  --BetterDocsBlockerBlack1:var(--lv1);
+}
+
 ::selection {
 	background-color: var(--accent) !important;
 	color: #fff;
