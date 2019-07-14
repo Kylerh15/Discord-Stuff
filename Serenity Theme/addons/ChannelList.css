@@ -1,3 +1,8 @@
+/*//META{"name":"Serenity Test UI","description":"An almost black theme with sharp edges that is easy on the eyes and has glow in some places.","author":"Kylerh15#2828","version":"1.7x", "website":"https://discord.gg/hhw4Kbh", "source":"https://github.com/Kylerh15/Discord-Stuff/blob/master/Serenity%20Theme/css/base.css"}*//**/
+
+/* Please keep !important by each option, this helps override the fallback system */
+/*@import url("https://kylerh15.github.io/Discord-Stuff/Serenity%20Theme/css/base.css");*/
+
 .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb {
   background-color: var(--colorbar) !important;
 }   
@@ -99,10 +104,11 @@ header.header-2o-2hj.da-header.banner-1TiK82.da-banner {
 }
 /* Channel Names */
 .theme-dark .name-3_Dsmg, .theme-light .name-3_Dsmg {
-  color: DarkGrey; /* Channel Name */
+  color: white;
 }
+/* Catagory Names */
 .wrapper-CU3qI5 {
-  color: DarkGrey; /* Catagory Name */
+  color: white;
 }
 .children-Bmpf2Q.pc-children {
   pointer-events: none;
@@ -126,8 +132,9 @@ header.header-2o-2hj.da-header.banner-1TiK82.da-banner {
 .nameHoveredText-1uO31y.name-3M0b8v.overflowEllipsis-jeThUf.da-nameHoveredText.da-name.da-overflowEllipsis {
   transition: all 0.2s;
 }
+/* Icons */
 .theme-dark .icon-1_QxNX, .theme-light .icon-1_QxNX, .theme-dark .wrapper-1ucjTd.modeMuted-3osy7j .icon-1_QxNX, .theme-light .wrapper-1ucjTd.modeMuted-3osy7j .icon-1_QxNX {
-    color: Grey; /* Icons */
+    color: white;
 }
 .name-3_Dsmg.pc-name {
     padding: 7px 0px 7px 0px;
@@ -140,12 +147,14 @@ header.header-2o-2hj.da-header.banner-1TiK82.da-banner {
     transition: 0.5s all;
     z-index: 30;
 }
+/* Channel Animation */
 .name-3_Dsmg.da-name {
     padding: 7px 0px 7px 0px;
     margin-left: 0px;
     transition: 0.1s all;
     z-index: 30;
 }
+/* Channel Animation */
 .name-3_Dsmg.da-name:hover {
     margin-left: 5px;
     transition: 0.1s all;
@@ -196,7 +205,6 @@ header.header-2o-2hj.da-header.banner-1TiK82.da-banner {
     top: 50%;
     width: 8px;
 }
-
 
 .actionIcon-2Hi9ZG {
   opacity: 1;
