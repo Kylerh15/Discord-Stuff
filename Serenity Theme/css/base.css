@@ -16,6 +16,7 @@
 @import url('https://kylerh15.github.io/Discord-Stuff/Serenity%20Theme/addons/UserTags.css');
 @import url('https://kylerh15.github.io/Discord-Stuff/Serenity%20Theme/addons/CustomUserPopouts.css');
 @import url('https://tropix126.github.io/BetterDiscordStuff/friendgrid/v3/css/base.css');
+@import url('https://kylerh15.github.io/Discord-Stuff/Serenity%20Theme/addons/UsefullSnippets.css');
 @import url("https://KorbsStudio.com/DreamFrame/Fallback-System/Fallback.theme.css");
 @import url('https://bdsources.tk/sourcecheck/code.css');
 @import url("https://bdsources.tk/sourcecheck/vars.css");
@@ -109,7 +110,7 @@
 .appMount-3lHmkl {
 	--theme-name: 'SerenityUI';
 	--theme-long-name: 'Serenity UI';
-	--theme-version: 'v2.0.2';
+	--theme-version: 'v2.0.3';
 }
 
 .wordmark-2iDDfm:after {
