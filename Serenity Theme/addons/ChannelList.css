@@ -127,7 +127,7 @@ header.header-2o-2hj.da-header.banner-1TiK82.da-banner {
   transition: all 0.2s;
 }
 .theme-dark .icon-1_QxNX, .theme-light .icon-1_QxNX, .theme-dark .wrapper-1ucjTd.modeMuted-3osy7j .icon-1_QxNX, .theme-light .wrapper-1ucjTd.modeMuted-3osy7j .icon-1_QxNX {
-    color: transparent;
+    color: white;
 }
 .name-3_Dsmg.pc-name {
     padding: 7px 0px 7px 0px;
@@ -142,12 +142,12 @@ header.header-2o-2hj.da-header.banner-1TiK82.da-banner {
 }
 .name-3_Dsmg.da-name {
     padding: 7px 0px 7px 0px;
-    margin-left: -25px;
+    margin-left: 0px;
     transition: 0.5s all;
     z-index: 30;
 }
 .name-3_Dsmg.da-name:hover {
-    margin-left: -15px;
+    margin-left: 15px;
     transition: 0.5s all;
     z-index: 30;
 }
