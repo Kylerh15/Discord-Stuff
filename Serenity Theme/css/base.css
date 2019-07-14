@@ -100,7 +100,9 @@
     --macOSClose: red !important;/* Change icon to close button on macOS */
     --macOSMin: yellow !important;/* Change icon to min button on macOS */
     --macOSMax: green !important;/* Change icon to max button on macOS */
-	/* Serenity UI */
+
+     /* Serenity UI */
+    --accent:#1973d3;
 }
 
 /* Serenity UI Watermark */
