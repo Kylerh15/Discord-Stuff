@@ -142,17 +142,15 @@ header.header-2o-2hj.da-header.banner-1TiK82.da-banner {
     transition: 0.5s all;
     z-index: 30;
 }
-/* Channel Animation */
 .name-3_Dsmg.da-name {
     padding: 7px 0px 7px 0px;
     margin-left: 0px;
-    transition: 0.1s all;
+    transition: 0.5s all;
     z-index: 30;
 }
-/* Channel Animation */
 .name-3_Dsmg.da-name:hover {
-    margin-left: 5px;
-    transition: 0.1s all;
+    margin-left: 10px;
+    transition: 0.5s all;
     z-index: 30;
 }
 /* Channel Selected */
