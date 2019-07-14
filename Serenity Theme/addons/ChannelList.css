@@ -1,8 +1,3 @@
-/*//META{"name":"Serenity Test UI","description":"An almost black theme with sharp edges that is easy on the eyes and has glow in some places.","author":"Kylerh15#2828","version":"1.7x", "website":"https://discord.gg/hhw4Kbh", "source":"https://github.com/Kylerh15/Discord-Stuff/blob/master/Serenity%20Theme/css/base.css"}*//**/
-
-/* Please keep !important by each option, this helps override the fallback system */
-/*@import url("https://kylerh15.github.io/Discord-Stuff/Serenity%20Theme/css/base.css");*/
-
 .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb {
   background-color: var(--colorbar) !important;
 }   
