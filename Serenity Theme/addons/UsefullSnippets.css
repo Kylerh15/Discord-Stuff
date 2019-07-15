@@ -3,7 +3,7 @@
     display: none;
 }
 
-/*remove the stupid help button */
+/*remove the help button */
 svg[name="Nova_Help"] {
     display: none;
 }
@@ -12,4 +12,17 @@ svg[name="Nova_Help"] {
 }
 .pc-iconWrapper svg {
     margin: 0px 6px;
+}
+
+/*remove the mention notification */
+.bar-30k2ka,
+.pc-bar,
+.unreadMentionsBar-1VrBNe,
+.pc-unreadMentionsBar,
+.mention-1f5kbO,
+.active-1SSsBb,
+.pc-mention,
+.pc-active {
+  opacity: 0;
+  visibility: hidden;
 }
