@@ -12,7 +12,7 @@
 @import url("https://korbsstudio.com/DreamFrame/raw/Dream%20Frame%20Status%20Picker/StatusPicker.css");
 @import url("https://korbsstudio.com/DreamFrame/raw/Dream%20Frame%20Upload%20Modal/UploadModal.css");
 @import url("https://KorbsStudio.com/DreamFrame/Covers/ProfileBackgrounds.css");
-/*@import url("https://kylerh15.github.io/Discord-Stuff/Serenity%20Theme/addons/ChannelList.css");*/
+@import url("https://kylerh15.github.io/Discord-Stuff/Serenity%20Theme/addons/ChannelList.css");
 @import url('https://kylerh15.github.io/Discord-Stuff/Serenity%20Theme/addons/UserTags.css');
 @import url('https://kylerh15.github.io/Discord-Stuff/Serenity%20Theme/addons/CustomUserPopouts.css');
 @import url('https://tropix126.github.io/BetterDiscordStuff/friendgrid/v3/css/base.css');
@@ -115,7 +115,7 @@
 .appMount-3lHmkl {
 	--theme-name: 'SerenityUI';
 	--theme-long-name: 'Serenity UI';
-	--theme-version: 'v2.0.5';
+	--theme-version: 'v2.0.6';
 }
 
 .wordmark-2iDDfm:after {
