@@ -2,6 +2,7 @@
 
 /* Please keep !important by each option, this helps override the fallback system */
 @import url("https://kylerh15.github.io/Discord-Stuff/BetterDreamFrame/base/raw.css");
+
 :root {
     /* Background */
     --custombackground: url(https://cdn.discordapp.com/attachments/430388043594334210/567774100433534986/oc__winter_feelings___my_new_wallpaper___4k_by_total_chuck-dbv5j3k.jpg); /* Change the background */
@@ -41,8 +42,7 @@
     --fonttooltipsize: 14px !important; /* Default: 14px */
     --fontusernamesize: 15px !important; /* Default: 15px */
     
-    /* Scrollbars */
-    
+    /* Scrollbars */   
     --colorbar: white !important; /* Change the color of the scrollbar */
     --widthbar: 14px !important; /* Change the width of the scrollbar */
     
@@ -52,6 +52,16 @@
     --dnd:  red !important;
     --offline: grey  !important;
     --streaming: purple  !important;
+
+    /* Channel Colors */
+    --category: rgba(255, 255, 255, 1);
+    --categoryhover: rgba(255, 255, 255, 1) !important;
+    --categoryselected: rgba(255, 255, 255, 1);
+    --channel: rgba(255, 255, 255, 1) !important;
+    --channelhover: rgba(255, 255, 255, 1) !important;
+    --channelselected: rgba(255, 255, 255, 1) !important;
+    --channelunread: rgba(255, 255, 255, 1) !important;
+    --channelmute: rgba(255, 255, 255, 0.3) !important;
     
     /* Server Colors */
     --serverselected: red !important;
@@ -74,7 +84,6 @@
     --maxButton: url(); /* Change icon to max button on Windows */
     --minButton: url(); /* Change icon to min button on Windows */
     --sizeOfButtons: 16px;  /* Change icon size to the titlebar buttons on Windows */
-    
     --defaulttb: 1 !important; /* change to 0 to hide default icons */
     
     /* macOS Titlebar - Colors*/
