@@ -1,0 +1,27 @@
+/* Home Icon */
+.homeIcon-tEMBK1 {
+	background: transparent !important;
+
+}
+.button-OhfaWu {
+	background-color: #fff !important;
+	-webkit-mask: var(--homeicon);
+	-webkit-mask-size: var(--homeiconsize);
+	-webkit-mask-repeat: no-repeat;
+	-webkit-mask-position: center;
+}
+
+/* + And Search Buttons */
+.circleIconButton-jET_ig {
+    background-color: #292b2f00;
+    color: white;
+}
+.circleIconButton-jET_ig:hover {
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Seperator */
+.guildSeparator-3s64Iy {
+	background-color: #fff !important;
+	height: 0px;
+}
