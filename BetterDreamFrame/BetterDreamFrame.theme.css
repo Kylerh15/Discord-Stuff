@@ -1,7 +1,7 @@
 //META{"name":"Better Dream Frame","description":"Better Dream Frame is a port of the popular theme Dream Frame for powercord Dream Frame is a clean theme for Discord. It allows customization like accent colors, custom fonts, color change, and more to come in the future. Support Server: https://discord.gg/YC4ZPdw","author":"Kylerh15#2828","version":"AutoUpdate"}*//{}
 
 /* Please keep !important by each option, this helps override the fallback system */
-@import url("https://korbsstudio.com/DreamFrame/raw/raw.css");
+@import url("https://kylerh15.github.io/Discord-Stuff/BetterDreamFrame/base/raw.css");
 :root {
     /* Background */
     --custombackground: url(https://cdn.discordapp.com/attachments/430388043594334210/567774100433534986/oc__winter_feelings___my_new_wallpaper___4k_by_total_chuck-dbv5j3k.jpg); /* Change the background */
