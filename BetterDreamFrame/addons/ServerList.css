@@ -25,3 +25,58 @@
 	background-color: #fff !important;
 	height: 0px;
 }
+
+/* Guild Scroller */
+.wrapper-1Rf91z ::-webkit-scrollbar-thumb {
+  visibility:hidden;
+}
+.wrapper-1Rf91z:hover ::-webkit-scrollbar-thumb {
+  visibility:visible
+}
+
+/* Guild Unread Bar */
+.unreadMentionsBar-1VrBNe {
+  left: calc(var(--guildSize) + -43.5px);
+  visibility: var(--unreadBar);
+}
+
+/* Guild Size */
+#app-mount .wrapper-1Rf91z, 
+#app-mount .wrapper-1Rf91z .listItem-2P_4kh,
+#app-mount .wrapper-1Rf91z .scrollerWrap-1IAIlv {
+    width: calc(var(--guildSize) + 25px);
+    position: relative;
+}
+#app-mount .wrapper-1Rf91z .listItem-2P_4kh .pill-31IEus {
+    top: 50%;transform: translateY(-50%);
+}
+#app-mount .wrapper-1Rf91z .scroller-2TZvBN .guildSeparator-3s64Iy {
+    background: transparent;
+    margin: 0;
+}
+.unreadMentionsIndicatorTop-gA6RCh, .unreadMentionsIndicatorBottom-BXS58x {
+    width: calc(var(--guildSize) + 15px);
+}
+.bd-settingsButton {
+    box-shadow:none;
+    left:10px;
+}
+.bd-settingsButton,
+.bd-settingsButton .bd-settingsButtonBtn,
+.bd-settingsButton .bd-settingsButtonBtn::before,
+#app-mount .wrapper-1Rf91z foreignObject,
+#app-mount .wrapper-1Rf91z .wrapper-25eVIn, 
+#app-mount .wrapper-1Rf91z .svg-1X37T1 {
+    width: var(--guildSize);
+    height: var(--guildSize);
+    border-radius: var(--guildRound);
+    mask:none;
+}
+#app-mount .wrapper-1Rf91z .listItem-2P_4kh {
+    margin:7px 0 0 0;
+    align-items: center;
+}
+
+#app-mount .wrapper-1Rf91z .blob-1PX1Gp {
+    margin: 0px
+}
