@@ -1,4 +1,5 @@
-//META{"name":"Better Dream Frame","description":"Better Dream Frame is a port of the popular theme Dream Frame for powercord Dream Frame is a clean theme for Discord. It allows customization like accent colors, custom fonts, color change, and more to come in the future. Support Server: https://discord.gg/YC4ZPdw","author":"Kylerh15#2828","version":"AutoUpdate"}*//{}
+//META{"name":"Better Dream Frame","description":"Better Dream Frame is a port of the popular theme Dream Frame by (Korbs#8092) Dream Frame is a clean theme for Discord. It allows customization like accent colors, custom fonts, color change, and more to come in the future. Support Server: https://discord.gg/YC4ZPdw","author":"Kylerh15#2828","version":"AutoUpdate"}*//{}
+
 
 /* Please keep !important by each option, this helps override the fallback system */
 @import url("https://kylerh15.github.io/Discord-Stuff/BetterDreamFrame/base/raw.css");
@@ -65,10 +66,10 @@
     
     /* Server Colors */
     --serverselected: red !important;
-	  --serverunread: white !important;
+    --serverunread: white !important;
 	
     /* Chat Bubbles */
-	  --bubblecolor: rgba(0, 0, 0, 0); /* Bubble colour & transparency */
+    --bubblecolor: rgba(0, 0, 0, 0); /* Bubble color & transparency */
     --bubbleroundness: 15px; /* Bubble roundness 0-30px */
     
     /* Home Icon */
