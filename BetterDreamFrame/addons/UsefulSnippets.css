@@ -1,0 +1,10 @@
+/*remove the help button */
+svg[name="Nova_Help"] {
+    display: none;
+}
+.pc-iconWrapper {
+    margin: 0;
+}
+.pc-iconWrapper svg {
+    margin: 0px 6px;
+}
