@@ -29,9 +29,13 @@
 /* Guild Scroller */
 .wrapper-1Rf91z ::-webkit-scrollbar-thumb {
   visibility:hidden;
+  background-color: var(--colorbar);
+  width: var(--widthbar);
 }
 .wrapper-1Rf91z:hover ::-webkit-scrollbar-thumb {
-  visibility:visible
+  visibility:visible;
+  background-color: var(--colorbar);
+  width: var(--widthbar);
 }
 
 /* Guild Unread Bar */
