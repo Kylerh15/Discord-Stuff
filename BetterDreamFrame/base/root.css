@@ -57,18 +57,23 @@
     --channelselected: rgba(255, 255, 255, 1) !important;
     --channelunread: rgba(255, 255, 255, 1) !important;
     --channelmute: rgba(255, 255, 255, 0.3) !important;
-    
-    /* Server Colors */
-    --serverselected: red !important;
-	  --serverunread: white !important;
 	
     /* Chat Bubbles */
-	  --bubblecolor: rgba(0, 0, 0, 0); /* Bubble color & transparency */
+    --bubblecolor: rgba(0, 0, 0, 0); /* Bubble color & transparency */
     --bubbleroundness: 15px; /* Bubble roundness 0-30px */
     
     /* Home Icon */
     --homeicon: url(https://cdn.discordapp.com/attachments/463532696820383754/489649105006493697/TheDWinkyFace.png);
     --homeiconsize: 35px;
+
+    /* Server List */
+    --guildRound: 50%;  /* Discord Default = 50% */
+    --guildSize: 48px; /* Discord Default = 48px */
+    --unreadBar: hidden; /* hidden = Off, visible = On */
+
+    /* Server Colors */
+    --serverselected: red !important;
+    --serverunread: white !important;
 
     /* Avatar Sizes in Chat */
     --avatar: 40px !important;
@@ -88,4 +93,5 @@
     --macOSClose: red !important;/* Change icon to close button on macOS */
     --macOSMin: yellow !important;/* Change icon to min button on macOS */
     --macOSMax: green !important;/* Change icon to max button on macOS */
+
 }
