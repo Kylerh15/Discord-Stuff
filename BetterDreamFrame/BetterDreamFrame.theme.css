@@ -65,8 +65,11 @@
     
     /* Server Colors */
     --serverselected: red !important;
-    --serverunread: white !important;
-
+	  --serverunread: white !important;
+	
+    /* Chat Bubbles */
+	  --bubblecolor: rgba(0, 0, 0, 0); /* Bubble colour & transparency */
+    --bubbleroundness: 15px; /* Bubble roundness 0-30px */
     
     /* Home Icon */
     --homeicon: url(https://cdn.discordapp.com/attachments/463532696820383754/489649105006493697/TheDWinkyFace.png);
