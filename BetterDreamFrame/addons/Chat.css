@@ -525,7 +525,7 @@ background-position: center;
 }
 
 /* Chat Bubbles */
-#app-mount .chat-3bRxxu .headerCozy-2N9HOL {
+/*#app-mount .chat-3bRxxu .headerCozy-2N9HOL {
   position: relative;
   margin-left: 10px
 }
@@ -557,4 +557,13 @@ background-position: center;
 }
 #app-mount .chat-3bRxxu .isMentioned-N-h9aa {
   margin: 0 .4em 0
+}*/
+
+/* tempary chat bubble fix */
+#app-mount .chat-3bRxxu .containerCozy-jafyvG {
+  overflow: visible;
+  padding: 10px 0;
+  margin: 10px 0px 10px 0px;
+  border-radius: var(--bubbleroundness);
+  background: var(--bubblecolor)
 }
