@@ -94,4 +94,8 @@
     --macOSMin: yellow !important;/* Change icon to min button on macOS */
     --macOSMax: green !important;/* Change icon to max button on macOS */
 
+    /* Custom Wordmark*/
+    --wordMark: 'Better Dream Frame';
+    --version: '1.0.7';
+
 }
