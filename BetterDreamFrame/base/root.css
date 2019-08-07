@@ -18,7 +18,7 @@
     --appbr: 5px !important; /* If you use the transparency feature in BandagedBD and adjusted "opacityDiscord" under 0.9 and have your custom backgroud removed */
 
     /* Accent Colors */
-    --accentcolor: #7289da    !important;   /* To reset the color back to default, use #7289da */
+    --accentcolor: #2C2F33 !important;   /* To reset the color back to default, use #2C2F33 */
     --accenttext: white !important; /* Use this to change the text colors that are on top of the accentcolor, this is to help make text readable if you're using a bright accent color */
     
     /* Fonts */
