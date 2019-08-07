@@ -1,26 +1,16 @@
-/* Watermark */
-.appMount-3lHmkl {
-	--theme-name: 'BetterDreamFrame';
-	--theme-long-name: 'Better Dream Frame';
-	--theme-version: 'v1.0.7';
+/* CUSTOM WORDMARK*/
+.wordmark-2iDDfm::before {
+  content: var(--wordMark);
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-weight: 600;
 }
-
-.wordmark-2iDDfm:after {
-	content: var(--theme-version);
-	text-shadow: 0 0 12px;
-	font-weight: 400;
-	color: rgba(255, 255, 255, 0.8);
-	font-size: 12px;
+.wordmark-2iDDfm::after {
+  content: var(--version);
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 12px;
+  font-weight: 400;
 }
-
-.wordmark-2iDDfm:before {
-	content: var(--theme-long-name) ' ';
-	text-shadow: 0 0 12px;
-	font-weight: 600;
-	color: rgba(255, 255, 255, 1);
-	font-size: 16px;
-}
-
 .wordmark-2iDDfm svg {
-	display: none;
+  display: none;
 }
