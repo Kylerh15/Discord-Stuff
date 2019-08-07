@@ -19,6 +19,10 @@
 .circleIconButton-jET_ig:hover {
 	background-color: rgba(0, 0, 0, 0.0);
 }
+.circleIconButton-jET_ig.selected-ugP_am {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.0);
+}
 
 /* Seperator */
 .guildSeparator-3s64Iy {
