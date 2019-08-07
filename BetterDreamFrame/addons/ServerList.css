@@ -84,3 +84,20 @@
 #app-mount .wrapper-1Rf91z .blob-1PX1Gp {
     margin: 0px
 }
+
+/* Folders */
+.theme-light .folder-21wGz3, .theme-light .folder-21wGz3.hover-2ji_A7,
+  .theme-dark .folder-21wGz3,
+  .theme-dark .folder-21wGz3.hover-2ji_A7 {
+    background-color: transparent; }
+  .theme-light .expandedFolderBackground-2sPsd-, .theme-light .expandedFolderBackground-2sPsd-.hover-2ji_A7,
+  .theme-dark .expandedFolderBackground-2sPsd-,
+  .theme-dark .expandedFolderBackground-2sPsd-.hover-2ji_A7 {
+    background-color: transparent; }
+  .theme-light .expandedFolderBackground-2sPsd-.collapsed-1GMuSb,
+  .theme-dark .expandedFolderBackground-2sPsd-.collapsed-1GMuSb {
+    background-color: transparent; }
+  .theme-light .folderIconWrapper-226oVY,
+  .theme-dark .folderIconWrapper-226oVY {
+    background-color: transparent !important;
+}
