@@ -84,3 +84,17 @@
   .members-1998pB .content-OzHfo4 .status-2s6iDp, .container-2Thooq .status-2kJpnA, .members-1998pB .member-3W1lQa.popout-open .status-2s6iDp, .private-channels .status, .channel-2QD9_O .status-1ibiUI {
     right: -1px !important;
   }
+
+/* Member List Borders */
+.theme-dark .memberOffline-2lN7gt:hover {
+    color: rgba(185,187,190,.9);
+    background-color: rgba(0, 0, 0, .1);
+}
+.theme-dark .memberOnline-1CIh-0:hover {
+    color: #b9bbbe;
+    background-color: rgba(0, 0, 0, .1);
+}
+.theme-dark .member-3W1lQa.popout-open, .theme-dark .member-3W1lQa.popout-open:hover {
+    background-color: rgba(0, 0, 0, .3);
+    color: #fff;
+}
