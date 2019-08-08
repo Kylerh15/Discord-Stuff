@@ -67,7 +67,7 @@
 /* Date */
 span.dividerContent-2L12VI.pc-dividerContent {
   color: white;
-  background: var(--accentcolor);
+  background: rgba(0, 0, 0, 0.3);
   padding: 10px;
   border-radius: 50px;
   width: max-content;
@@ -75,7 +75,7 @@ span.dividerContent-2L12VI.pc-dividerContent {
   font-size: 12px;
 }
 .theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI {
-  color: var(--accenttext);
+  color: #fff;
 }
 /* Invite - Joined */
 .theme-dark .lookOutlined-3sRXeN.colorPrimary-3b3xI6 {
