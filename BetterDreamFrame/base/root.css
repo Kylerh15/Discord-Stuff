@@ -49,21 +49,21 @@
     --streaming: purple  !important;
 
     /* Channel Colors */
-    --category: rgba(255, 255, 255, 1);
-    --categoryhover: rgba(255, 255, 255, 1) !important;
-    --categoryselected: rgba(255, 255, 255, 1);
-    --channel: rgba(255, 255, 255, 1) !important;
-    --channelhover: rgba(255, 255, 255, 1) !important;
-    --channelselected: rgba(255, 255, 255, 1) !important;
-    --channelunread: rgba(255, 255, 255, 1) !important;
-    --channelmute: rgba(255, 255, 255, 0.3) !important;
+    --category: #b9bbbe; /* Discord Default #b9bbbe */
+    --categoryhover: #b9bbbe !important; /* Discord Default #b9bbbe */
+    --categoryselected: #fff; /* Discord Default #fff */
+    --channel: #b9bbbe !important; /* Discord Default #b9bbbe */
+    --channelhover: #b9bbbe !important; /* Discord Default #b9bbbe */
+    --channelselected: #fff !important; /* Discord Default #fff */
+    --channelunread: #fff !important; /* Discord Default #fff */
+    --channelmute: rgba(185,187,190,.6) !important; /* Discord Default rgba(185,187,190,.9) */
 	
     /* Chat Bubbles */
     --bubblecolor: rgba(0, 0, 0, 0); /* Bubble color & transparency */
     --bubbleroundness: 15px; /* Bubble roundness 0-30px */
     
     /* Home Icon */
-    --homeicon: url(https://cdn.discordapp.com/attachments/463532696820383754/489649105006493697/TheDWinkyFace.png);
+    --homeicon: url(https://cdn.discordapp.com/attachments/554081814847684638/608509736073035798/pngkey.com-discord-png-200938.png);
     --homeiconsize: 35px;
 
     /* Server List */
@@ -96,6 +96,6 @@
 
     /* Custom Wordmark*/
     --wordMark: 'Better Dream Frame';
-    --version: ' 1.0.8';
+    --version: ' 1.0.9';
 
 }
