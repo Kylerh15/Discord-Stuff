@@ -57,7 +57,7 @@
 }
 .theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI {
   color: white;
-  background: var(--accentcolor);
+  background: rgba(0, 0, 0, 0.3);
   padding: 10px;
   border-radius: 50px;
   width: 110px;
